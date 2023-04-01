@@ -1,2 +1,2 @@
-# Simple_Elevator
-Simulates a simple elevator with single threadd code.
+# Simple\_Elevator
+Simulates a simple elevator with single thread code.
