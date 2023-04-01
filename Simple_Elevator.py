@@ -35,8 +35,10 @@ while True:
     if (DEBUG_ON):
         print("*** time cycle begin ***")
 
+   # 1) Why eliminate reusable functions around data structures?
+   # 2) Which functional area (section) does this code belong to? Buttons read, Controller or Elevator car?
     buttons_pressed = np.flatnonzero(buttons)
-
+ 
     if buttons_pressed.size > 0:
         buttons_pressed += 1
         lowest_button_on = np.min(buttons_pressed) 
