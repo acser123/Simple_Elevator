@@ -1,5 +1,4 @@
 import time
-from sortedcontainers import SortedSet
 from inputimeout import inputimeout, TimeoutOccurred
 import numpy as np
 
