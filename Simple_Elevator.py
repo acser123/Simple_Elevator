@@ -78,7 +78,7 @@ while(True):
         
     ## Debug section end
     
-    print("*** curr_floor", curr_floor)
+    print("*** curr_floor: ", curr_floor)
 
     ## Controller section begin
     if any_button_pressed(buttons) and direction == ST and lowest_button_on(buttons) > curr_floor:
