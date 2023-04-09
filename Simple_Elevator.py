@@ -53,7 +53,7 @@ while(True):
     if __name__ == "__main__":
         # Try reading keyboard input for INPUT_TIMEOUT seconds
         try:
-            c = inputimeout(prompt='Input floor now\n', timeout=INPUT_TIMEOUT)
+            c = inputimeout(prompt='Input floor now: ', timeout=INPUT_TIMEOUT)
         # timeout, nothing read
         except TimeoutOccurred:
             c = 'timeout'
