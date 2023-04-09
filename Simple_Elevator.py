@@ -76,7 +76,7 @@ while True:
         
     ## Debug section end
     
-    print("*** curr_floor: ", curr_floor)
+    print("*** curr_floor", curr_floor)
 
     ## Controller section begin
     if buttons_pressed.size > 0 and direction == ST and lowest_button_on > curr_floor:
